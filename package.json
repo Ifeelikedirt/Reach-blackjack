@@ -1,0 +1,19 @@
+{
+  "name": "reachblackjack",
+  "version": "1.0.0",
+  "description": "Implementation of blackjack with reach.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./reach react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ifeelikedirt/Reach-blackjack.git"
+  },
+  "author": "Anzo Benjamin, Anguzu Daniel, Nayebare Brighton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ifeelikedirt/Reach-blackjack/issues"
+  },
+  "homepage": "https://github.com/Ifeelikedirt/Reach-blackjack#readme"
+}
