@@ -6,6 +6,9 @@ import { renderDOM, renderView } from './views/render';
 import './style.css';
 import * as backend from './build/index.main.mjs';
 import { loadStdlib } from '@reach-sh/stdlib';
+import { ALGO_MyAlgoConnect as MyAlgoConnect } from '@reach-sh/stdlib';
+stdlib.setWalletFallback(stdlib.walletFallback({
+  providerEnv: 'TestNet', MyAlgoConnect }));
 const reach = loadStdlib(process.env);
 
 //reach.setSignStrategy('AlgoSigner');
